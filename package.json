@@ -1,0 +1,11 @@
+{
+  "name": "graph-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve index.html"
+  },
+  "author": "risezhang",
+  "license": "ISC"
+}
