@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gulp",
-    "start": "serve index.html"
+    "start": "http-server src/"
   },
   "author": "risezhang",
   "license": "ISC",

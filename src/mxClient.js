@@ -1394,7 +1394,7 @@ var mxResources =
 	{
 		if (mxResources.loadDefaultBundle || !mxResources.isLanguageSupported(lan))
 		{
-			return basename + mxResources.extension;
+			return basename + '_zh' + mxResources.extension;
 		}
 		else
 		{
