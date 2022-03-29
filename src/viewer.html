@@ -67,6 +67,23 @@
 			var codec = new mxCodec(xmlDoc);
 			codec.decode(xmlDoc.documentElement, graph.getModel());
 		};
+		
+		(function () {
+			const data = `<mxGraphModel dx="1376" dy="2491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+							<root>
+								<mxCell id="0" />
+								<mxCell id="1" parent="0" />
+								<mxCell id="aCSu5PAENAVEXAF56WVR-1" value="44444" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+								<mxGeometry x="510" y="610" width="120" height="60" as="geometry" />
+								</mxCell>
+								<mxCell id="aCSu5PAENAVEXAF56WVR-2" value="描述" style="ellipse;html=1;whiteSpace=wrap;strokeWidth=6;strokeColor=#ffffff;fillColor=#b7214b;opacity=100;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;spacingTop=0;spacingLeft=10;spacingRight=10;spacingBottom=0;" parent="1" vertex="1">
+								<mxGeometry x="884.0011615782004" y="414.38595593513105" width="81.77407660679808" height="81.33722945551301" as="geometry" />
+								</mxCell>
+							</root>
+							</mxGraphModel>
+							`;
+			show(data);
+		})()
 	</script>
 </body>
 </html>

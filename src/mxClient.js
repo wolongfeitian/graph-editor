@@ -11355,7 +11355,9 @@ mxXmlRequest.prototype.send = function(onload, onerror, timeout, ontimeout)
 			{
 				if (this.isReady())
 				{
-					onload(this);
+					if(typeof onload === 'function') {
+						onload(this);
+					}
 					this.request.onreadystatechange = null;
 				}
 			});
