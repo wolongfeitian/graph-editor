@@ -28,3 +28,8 @@ window.mxBasePath = window.mxBasePath || './';
 window.mxImageBasePath = window.mxImageBasePath || './images';
 window.mxLanguage = window.mxLanguage || urlParams['lang'];
 window.mxLanguages = window.mxLanguages || ['de', 'se', 'zh'];
+
+/**
+ * Returns the global UI setting before running static draw.io code
+ */
+ window.uiTheme = window.uiTheme || 'sketch';
